@@ -1,0 +1,24 @@
+.reels
+{
+    height: 500px;
+    width:300px;
+    background-color: white;
+    border-radius: 15px;
+    border:1px solid grey;
+    .reels_header
+    {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .reels_footer
+    {
+        height: 60%;
+        align-items: center;
+        .image
+        {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
